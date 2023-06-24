@@ -1,0 +1,12 @@
+composer create-project laravel/laravel laracrud
+
+cd laracrud
+
+php artisan serve
+
+php artisan make:controller ProductController
+
+php artisan make:model Product -m
+
+php artisan migrate:fresh
+
